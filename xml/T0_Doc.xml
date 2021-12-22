@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<t0-dokument xmlns="http://www.thieme-compliance.de/t0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.thieme-compliance.de/t0 ../XSD/T0.xsd">
+	<metadaten>my metadata</metadaten>
+</t0-dokument>
