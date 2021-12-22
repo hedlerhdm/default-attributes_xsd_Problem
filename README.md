@@ -22,6 +22,6 @@ Our requirements in this case are:
 - no schema-aware transformation
 - use saxon config-file for commandline options
 
-The command-line option ```-val:lax``` does exactly what we want to do, but we need this option in the config-file without raising the metioned error
+The command-line option ```-val:lax``` does exactly what we want to do, but we need this option set in config-file without raising the metioned error
 Is there a difference between ```-val:lax``` and ```<global schemaValidation="lax"/>```?
 
