@@ -7,7 +7,7 @@ com.saxonica.Transform -val:lax -o:out.xml -s:xml/T0_Doc.xml -xsl:xsl/transT0.xs
 ```
 We use ```-val:lax``` because we want to expand the default-attributes. 
 
-For differents reasons, we need to move the „-val“-Option  to a saxon config-file:
+For differents reasons, we need to move the ```-val```-Option  to a saxon config-file:
 ```
 java  -cp %saxon% ^
 com.saxonica.Transform -config:saxonConfig/config.xml -o:out.xml -s:xml/T0_Doc.xml -xsl:xsl/transT0.xsl
